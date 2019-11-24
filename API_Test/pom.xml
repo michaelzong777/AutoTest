@@ -6,7 +6,12 @@
 
     <groupId>com.java</groupId>
     <artifactId>API_Test</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>report</module>
+        <module>httpclient</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>

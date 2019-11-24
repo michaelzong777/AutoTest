@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/API_Test/API_Test.iml" filepath="$PROJECT_DIR$/API_Test/API_Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaTest.iml" filepath="$PROJECT_DIR$/JavaTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/API_Test/httpclient/httpclient.iml" filepath="$PROJECT_DIR$/API_Test/httpclient/httpclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/API_Test/report/report.iml" filepath="$PROJECT_DIR$/API_Test/report/report.iml" />
     </modules>
   </component>
 </project>
