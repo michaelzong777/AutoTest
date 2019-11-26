@@ -2,9 +2,13 @@
   {
     "description": "this is my first mock",
     "request": {
-      "uri": "/demo"
+      "uri": "/demo",
+      "method": "get"
     },
     "response": {
+      "cookies": {
+        "login": "true"
+      },
       "text": "this is my first response"
     }
   }

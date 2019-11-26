@@ -1,0 +1,37 @@
+[
+  {
+    "description": "模拟一个post请求",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post",
+      "cookies": {
+        "login": "false"
+      },
+      "json": {
+        "name": "mike",
+        "age": "30"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "result": "这是mock的post请求并成功",
+        "status": "1"
+      }
+    }
+  },
+  {
+    "description": "模拟一个带参数的post请求",
+    "request": {
+      "uri": "/postparam",
+      "method": "post",
+      "forms": {
+        "name": "Rose",
+        "age": "25"
+      }
+    },
+    "response": {
+      "text": "这是mock的带参数post请求"
+    }
+  }
+]

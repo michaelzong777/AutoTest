@@ -1,0 +1,30 @@
+[
+  {
+    "description": "模拟一个没有参数的get请求",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "这是个没有参数带cookies的get请求"
+    }
+  },
+
+  {
+    "description": "模拟一个带参数的get请求",
+    "request": {
+      "uri": "/getparam",
+      "method": "get",
+      "queries": {
+        "name":"Jack",
+        "age": "28"
+      }
+    },
+    "response": {
+      "text": "I'm back!!!"
+    }
+  }
+]
